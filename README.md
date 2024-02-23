@@ -1,4 +1,5 @@
-![smritify-logo](./sm.png)
+![smritify-logo](https://i.ibb.co/M66SCGV/smritify-removebg-preview.png)
+
 # Smritify - Note Taking CLI
 
 Smritify is a command-line interface (CLI) tool designed for taking and managing notes efficiently. It provides a simple yet effective way to create, view, search, and delete notes right from your terminal.
@@ -60,4 +61,3 @@ smritify new "Remember to buy groceries" --tags "shopping, errands"
 smritify find "groceries"
 smritify remove all
 ```
-
