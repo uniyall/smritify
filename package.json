@@ -2,6 +2,7 @@
   "name": "smritify",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "bin": {
     "smritify": "./index.js"
   },
@@ -14,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.19"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
   }
 }
