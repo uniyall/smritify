@@ -17,6 +17,7 @@
     "@types/node": "^20.11.19"
   },
   "dependencies": {
+    "open": "^10.0.3",
     "yargs": "^17.7.2"
   }
 }

@@ -54,10 +54,21 @@ smritify clean
 
 Remove all notes from the database.
 
+### Launching Web Interface
+
+```bash
+smritify web [port]
+```
+Launch a web interface to view and manage notes in a browser. Optionally, specify a port to bind the server on (default is 5000).
+
 ## Example
 
 ```bash
 smritify new "Remember to buy groceries" --tags "shopping, errands"
 smritify find "groceries"
-smritify remove all
+smritify all
+smritify web
+smritify clean
 ```
+
+

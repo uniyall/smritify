@@ -8,6 +8,8 @@ import {
   removeNote,
 } from "./note.js";
 
+import { start } from "./server.js";
+
 yargs(hideBin(process.argv))
   .option("tags", {
     alias: "t",
@@ -79,7 +81,9 @@ yargs(hideBin(process.argv))
         type: "number",
       });
     },
-    async (argv) => {}
+    async (argv) => {
+      start(await getAllNotes(), argv.port);
+    }
   )
   .command(
     "clean",
